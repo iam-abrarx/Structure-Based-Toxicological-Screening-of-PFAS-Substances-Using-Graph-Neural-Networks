@@ -1,0 +1,649 @@
+﻿Table,Column_name,Description,Additional_Description,Data_Type
+CapeCodPFAS_2019_2024,Site_name,Name of site as it appears in NWIS (National Water Information System),,text
+CapeCodPFAS_2019_2024,Field_name,"Short name used in field and on sample bottles, if different from SiteName",Blank= not applicable,text
+CapeCodPFAS_2019_2024,SiteID_DON,Unique identifier associated with the site,,text
+CapeCodPFAS_2019_2024,Sample_Type,Code indicating type of sample,"Sample type abbreviations are defined as follows: GW= Groundwater; LK= Lake, surface water; RV= River, surface water; OAQ= Blank; WGQ= Groundwater Duplicate; WSQ= Surface water duplicate",text
+CapeCodPFAS_2019_2024,Date_yyyymmdd,Date of sample collection,Date format: yyyymmdd,text
+CapeCodPFAS_2019_2024,Time_hhmm,Time of sample collection in Eastern Time,Time Format: hhmm (24 hours).,text
+CapeCodPFAS_2019_2024,Latitude_dd.ddddd,Latitude of sample site in decimal degrees,Reported in decimal degrees.,numeric
+CapeCodPFAS_2019_2024,Longitude_dd.ddddd,Longitude of sample site in decimal degrees,Reported in decimal degrees.,numeric
+CapeCodPFAS_2019_2024,LatLong_Datum,Datum for latitude and longitude,NAD83= North American Datum of 1983; NAD27= North American Datum of 1927,text
+CapeCodPFAS_2019_2024,Surface_water_depth,Total depth of surface water column at sample location,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Surface_water_depth_units,Units for surface water depth at sample location,cm= centimeters; ft= feet; blank= not applicable,text
+CapeCodPFAS_2019_2024,Sample_depth_below_lake_surface_cm,Depth of surface water sample in centimeters below lake surface,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Sample_depth_below_SWBottom_cm,Depth of groundwater sample in centimeters below lake or river bottom at sample location,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Land_Surface_Altitude_ft,Land surface altitude at sample location ,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Land_Surface_Altitude_Datum,Land surface altitude datum,Blank= not applicable; NGVD29= National Geodetic Vertical Datum of 1929; NAVD88= North American Vertical Datum of 1988,text
+CapeCodPFAS_2019_2024,Sample_depth_ftbls,Depth of sample in feet below land surface,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Sample_Altitude_ft,"Altitude of the midpoint vertically of the screened interval, or the average of the top of screen and bottom of screen altitudes.",Sample altitude equal to land surface altitude minus sample depth. Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Sample_Altitude_Datum,Sample altitude datum,Blank= not applicable; NGVD29= National Geodetic Vertical Datum of 1929; NAVD88= North American Vertical Datum of 1988,text
+CapeCodPFAS_2019_2024,Temperature_degrees_C,"Temperature in degrees Celsius, measured in field. ",Blank= not measured,numeric
+CapeCodPFAS_2019_2024,SpC_microsiemens_per_centimeter,"Specific conductance in microsiemens per centimeter, measured in field. ",Blank= not measured,numeric
+CapeCodPFAS_2019_2024,Dissolved_oxygen_milligrams_per_liter,Dissolved oxygen in milligrams per liter. Measured in field.,Blank= not measured,numeric
+CapeCodPFAS_2019_2024,pH_std_Units,pH in standard units- negative log of the hydrogen ion activity. Measured in field.,Blank= not measured,numeric
+CapeCodPFAS_2019_2024,delta.H.2.H.1,"Ratio of H2 to H1 relative to an international measurement standard, parts per thousand, USGS Reston Stable Isotope Lab, Reston, VA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,delta.O.18.O.16,"Ratio of O18 to O16 relative to an international measurement standard, parts per thousand, USGS Reston Stable Isotope Lab, Reston, Va",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Ammonia_plus_ammonium_milligrams_nitrogen_per_liter,"Total dissolved ammonium and ammonia concentration in milligrams  nitrogen per liter, National Water Quality Lab",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Ammonia_rmk_mgl,Total dissolved ammonium plus ammonia in milligrams nitrogen per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Nitrite_milligrams_nitrogen_per_liter,"Nitrite concentration in milligrams nitrogen per liter, National Water Quality Lab",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Nitrite_rmk_mgl,Nitrite in milligrams nitrogen per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Nitrate_Nitrite_milligrams_nitrogen_per_liter,"Nitrate plus nitrite concentration in milligrams nitrogen per liter, National Water Quality Lab",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Nitrate_Nitrite_rmk_mgl,Nitrate plus nitrite in milligrams nitrogen per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Total_Nitrogen_milligrams_nitrogen_per_liter,"Total nitrogen concentration in milligrams nitrogen per liter, National Water Quality Lab",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Fluoride_milligramsperliter,"Fluoride concentration in milligrams per liter, USGS Analytical Trace Element Chemistry Lab, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Fluoride_rmk_mgl,Fluoride in milligrams per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Chloride_milligramsperliter,"Chloride concentration in milligrams per liter, USGS Analytical Trace Element Chemistry Lab, Boulder, CO, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Chloride_rmk_mgl,Chloride in milligrams per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Sulfate_milligramsperliter,"Sulfate concentration in milligrams per liter, USGS Analytical Trace Element Chemistry Lab, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Sulfate_rmk_mgl,Sulfate in milligrams per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Bromide_milligramsperliter,"Bromide concentration in milligrams per liter, USGS Analytical Trace Element Chemistry Lab, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Bromide_rmk_mgl,Bromide in milligrams per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Nitrate_milligramsperliter,"Nitrate concentration in milligrams per liter as nitrogen, USGS Analytical Trace Element Chemistry Lab, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Nitrate_rmk_mgl,Nitrate in milligrams nitrogen per liter remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Chloride_micromolar,"Chloride concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Chloride_rmk_micromolar,Chloride micromolar remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Nitrite_micromolar,"Nitrite concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Nitrite_rmk_micromolar,Nitrite micromolar remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Bromide_micromolar,"Bromide concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Bromide_rmk_micromolar,Bromide micromolar remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Nitrate_micromolar,"Nitrate concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Nitrate_rmk_micromolar,Nitrate micromolar remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Phosphate_micromolar,"Phosphate concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Phosphate_rmk_micromolar,Phosphate micromolar remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Sulfate_micromolar,"Sulfate concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Sulfate_rmk_micromolar,Sulfate micromolar remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Sodium_micromolar,"Sodium concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Ammonium_micromolar,"Ammonium concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Ammonium_rmk_micromolar,Ammonium micromolar remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Potassium_micromolar,"Potassium concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Magnesium_micromolar,"Magnesium concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Calcium_micromolar,"Calcium concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,TotalDissolvedNitrogen_micromolar,"Total dissolved nitrogen concentration in micromolar, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,DissolvedOrganicCarbon_milligramsperLiter,"Dissolved organic carbon concentration in milligrams per liter, Biogeochemistry of Nitrogen in Aquatic Environments Laboratory, Boulder, CO and USGS Analytical Trace Element Chemistry Lab, Boulder, CO in November 2023",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Al_micromolar,"Aluminum concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Al_rmk,Aluminum remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,As_micromolar,"Arsenic concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,As_rmk,Arsenic remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,B_micromolar,"Boron concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,B_rmk,Boron remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Ba_micromolar,"Barium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Ba_rmk,Barium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Ca_micromolar,"Calcium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Ca_rmk,Calcium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Cd_micromolar,"Cadmium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Cd_rmk,Cadmium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Co_micromolar,"Cobalt concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Co_rmk,Cobalt remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Cr_micromolar,"Chromium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Cr_rmk,Chromium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Cu_micromolar,"Copper concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Cu_rmk,Copper remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Fe_micromolar,"Iron concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Fe_rmk,Iron remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,K_micromolar,"Potassium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,K_rmk,Potassium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Li_micromolar,Lithium concentration in micromolar,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Li_rmk,Lithium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Mg_micromolar,"Magnesium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Mg_rmk,Magnesium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Mn_micromolar,"Manganese concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Mn_rmk,Manganese remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Mo_micromolar,"Molybdenum concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Mo_rmk,Molybdenum remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Na_micromolar,"Sodium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Na_rmk,Sodium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Ni_micromolar,"Nickel concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Ni_rmk,Nickel remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,P_micromolar,"Phosphorous concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,P_rmk,Phosphorous remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Pb_micromolar,"Lead concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Pb_rmk,Lead remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,S_micromolar,"Sulfur concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,S_rmk,Sulfur remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Se_micromolar,"Selenium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Se_rmk,Selenium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Si_micromolar,"Silicon concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Si_rmk,Silicon remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Sr_micromolar,"Strontium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Sr_rmk,Strontium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Tl_micromolar,"Thallium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,Tl_rmk,Thallium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,U_micromolar,"Uranium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,U_rmk,Uranium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,V_micromolar,"Vanadium concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,V_rmk,Vanadium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,Zn_micromolar,"Zinc concentration in micromolar, USGS Partitioning of Inorganics lab, Menlo Park, CA. Zinc concentration below 0.5 micromolar likely result from contamination by the high-density polyethylene vial in which the filtered sample was acidified.",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFAS_lab,Lab where PFAS analysis was performed,"RTI Laboratories, Environmental Sciences Division, Livonia, MI; SGS AXYS Analytical Services, Sidney, British Columbia; SGS Environmental Health and Safety Laboratory, Orlando, FL; SGS Environmental Health and Safety Laboratory, Dayton, NJ; U.S. Geological Survey's Eastern Ecological Science Center Leetown Research Laboratory, Leetown, WV.",text
+CapeCodPFAS_2019_2024,PFAS_units,Units PFAS compounds are reported in,ng/L= nanograms per liter; blank= does not apply,text
+CapeCodPFAS_2019_2024,PFBA_val,Perfluorobutanoate concentration ,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFBA_rmk,Perfluorobutanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFBA_qual,Perfluorobutanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFBA _MDL,Perfluorobutanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFBA_RL_MQL,Perfluorobutanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPeA_val,Perfluoropentanoate concentration ,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPeA_rmk,Perfluoropentanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFPeA_qual,Perfluoropentanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFPeA_MDL,Perfluoropentanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPeA_RL_MQL,Perfluoropentanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHxA_val,Perfluorohexanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHxA_rmk,Perfluorohexanoate acid remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFHxA_qual,Perfluorohexanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFHxA_MDL,Perfluorohexanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHxA_RL_MQL,Perfluorohexanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHpA_val,Perfluoroheptanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHpA_rmk,Perfluoroheptanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFHpA_qual,Perfluoroheptanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFHpA_MDL,Perfluoroheptanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHpA_RL_MQL,Perfluoroheptanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOA_val,Perfluorooctanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOA_rmk,Perfluorooctanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFOA_qual,Perfluorooctanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFOA_MDL,Perfluorooctanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOA_RL_MQL,Perfluorooctanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFNA_val,Perfluorononanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFNA_rmk,Perfluorononanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFNA_qual,Perfluorononanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFNA_MDL,Perfluorononanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFNA_RL_MQL,Perfluorononanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDA_val,Perfluorodecanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDA_rmk,Perfluorodecanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFDA_qual,Perfluorodecanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFDA_MDL,Perfluorodecanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDA_RL_MQL,Perfluorodecanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFUnDA_val,Perfluoroundecanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFUnDA_rmk,Perfluoroundecanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFUnDA_qual,Perfluoroundecanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; v= Analyte detected in laboratory blank; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFUnDA_MDL,Perfluoroundecanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFUnDA_RL_MQL,Perfluoroundecanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDoDA_val,Perfluorododecanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDoDA_rmk,Perfluorododecanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFDoDA_qual,Perfluorododecanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFDoDA_MDL,Perfluorododecanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDoDA_RL_MQL,Perfluorododecanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTrDA_val,Perfluorotridecanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTrDA_rmk,Perfluorotridecanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFTrDA_qual,Perfluorotridecanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFTrDA_MDL,Perfluorotridecanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTrDA_RL_MQL,Perfluorotridecanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTeDA_val,Perfluorotetradecanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTeDA_rmk,Perfluorotetradecanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFTeDA_qual,Perfluorotetradecanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFTeDA_MDL,Perfluorotetradecanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTeDA_RL_MQL,Perfluorotetradecanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFBS_val,Perfluorobutane sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFBS_rmk,Perfluorobutane sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFBS_qual,Perfluorobutane sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFBS_MDL,Perfluorobutane sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFBS_RL_MQL,Perfluorobutane sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPeS_val,Perfluoropentane sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPeS_rmk,Perfluoropentane sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFPeS_qual,Perfluoropentane sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFPeS_MDL,Perfluoropentane sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPeS_RL_MQL,Perfluoropentane sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHxS_val,Perfluorohexane sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHxS_rmk,Perfluorohexane sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFHxS_qual,Perfluorohexane sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFHxS_MDL,Perfluorohexane sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHxS_RL_MQL,Perfluorohexane sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHpS_val,Perfluoroheptane sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHpS_rmk,Perfluoroheptane sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFHpS_qual,Perfluoroheptane sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFHpS_MDL,Perfluoroheptane sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFHpS_RL_MQL,Perfluoroheptane sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOS_val,Perfluorooctane sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOS_rmk,Perfluorooctane sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFOS_qual,Perfluorooctane sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; e= Exceeds calibrated linear range; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFOS_MDL,Perfluorooctane sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOS_RL_MQL,Perfluorooctane sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFNS_val,Perfluorononane sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFNS_rmk,Perfluorononane sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFNS_qual,Perfluorononane sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFNS_MDL,Perfluorononane sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFNS_RL_MQL,Perfluorononane sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDS_val,Perfluorodecane sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDS_rmk,Perfluorodecane sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFDS_qual,Perfluorodecane sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFDS_MDL,Perfluorodecane sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDS_RL_MQL,Perfluorodecane sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,4.2.FTS_val,4:2 Fluorotelomer sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,4.2.FTS_rmk,4:2 Fluorotelomer sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,4.2.FTS_qual,4:2 Fluorotelomer sulfonate qualifier code,"m= Manual integration applied to peak; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,4.2.FTS_MDL,4:2 Fluorotelomer sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,4.2.FTS_RL_MQL,4:2 Fluorotelomer sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,6.2.FTS_val,6:2 Fluorotelomer sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,6.2.FTS_rmk,6:2 Fluorotelomer sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,6.2.FTS_qual,6:2 Fluorotelomer sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,6.2.FTS_MDL,6:2 Fluorotelomer sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,6.2.FTS_RL_MQL,6:2 Fluorotelomer sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,8.2.FTS_val,8:2 Fluorotelomer sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,8.2.FTS_rmk,8:2 Fluorotelomer sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,8.2.FTS_qual,8:2 Fluorotelomer sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,8.2.FTS_MDL,8:2 Fluorotelomer sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,8.2.FTS_RL_MQL,8:2 Fluorotelomer sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.MeFOSAA_val,N-Methylperfluorooctane sulfonamidoacetate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.MeFOSAA_rmk,N-Methylperfluorooctane sulfonamidoacetate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,N.MeFOSAA_qual,N-Methylperfluorooctane sulfonamidoacetate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; q=qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,N.MeFOSAA_MDL,N-Methylperfluorooctane sulfonamidoacetate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.MeFOSAA_RL_MQL,N-Methylperfluorooctane sulfonamidoacetate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.EtFOSAA_val,N-Ethylperfluorooctane sulfonamidoacetate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.EtFOSAA_rmk,N-Ethylperfluorooctane sulfonamidoacetate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,N.EtFOSAA_qual,N-Ethylperfluorooctane sulfonamidoacetate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,N.EtFOSAA_MDL,N-Ethylperfluorooctane sulfonamidoacetate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.EtFOSAA_RL_MQL,N-Ethylperfluorooctane sulfonamidoacetate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,11Cl.PF3OUdS_val,11-Chloroeicosafluoro-3-oxaundecane-1-sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,11Cl.PF3OUdS_rmk,11-Chloroeicosafluoro-3-oxaundecane-1-sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,11Cl.PF3OUdS_qual,11-Chloroeicosafluoro-3-oxaundecane-1-sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,11Cl.PF3OUdS_MDL,11-Chloroeicosafluoro-3-oxaundecane-1-sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,11Cl.PF3OUdS_RL_MQL,11-Chloroeicosafluoro-3-oxaundecane-1-sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,9Cl.PF3ONS_val,9-Chlorohexadecafluoro-3-oxanonane-1-sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,9Cl.PF3ONS_rmk,9-Chlorohexadecafluoro-3-oxanonane-1-sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,9Cl.PF3ONS_qual,9-Chlorohexadecafluoro-3-oxanonane-1-sulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,9Cl.PF3ONS_MDL,9-Chlorohexadecafluoro-3-oxanonane-1-sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,9Cl.PF3ONS_RL_MQL,9-Chlorohexadecafluoro-3-oxanonane-1-sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,HFPO.DA_val,Perfluoro-2-propoxypropanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,HFPO.DA_rmk,Perfluoro-2-propoxypropanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,HFPO.DA_qual,Perfluoro-2-propoxypropanoate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,HFPO.DA_MDL,Perfluoro-2-propoxypropanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,HFPO.DA_RL_MQL,Perfluoro-2-propoxypropanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,ADONA_val,"4,8-Dioxa-3H-Perfluorononanoate concentration",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,ADONA_rmk,"4,8-Dioxa-3H-Perfluorononanoate remark","< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,ADONA_qual,"4,8-Dioxa-3H-Perfluorononanoate qualifier code","m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,ADONA_MDL,"4,8-Dioxa-3H-Perfluorononanoate method detection limit",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,ADONA_RL_MQL,"4,8-Dioxa-3H-Perfluorononanoate reporting limit or method quantification limit",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOSA_val,Perfluorooctanesulfonamide concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOSA_rmk,Perfluorooctanesulfonamide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFOSA_qual,Perfluorooctanesulfonamide qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; d= Diluted sample, method high range exceeded; u= Fragment ion not detected; x= Interference from sample matrix; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFOSA_MDL,Perfluorooctanesulfonamide method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFOSA_RL_MQL,Perfluorooctanesulfonamide reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDoS_val,Perfluorododecanesulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDoS_rmk,Perfluorododecanesulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFDoS_qual,Perfluorododecanesulfonate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFDoS_MDL,Perfluorododecanesulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFDoS_RL_MQL,Perfluorododecanesulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,MeFOSA_val,N-methyl perfluorooctanesulfonamide concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,MeFOSA_rmk,N-methyl perfluorooctanesulfonamide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,MeFOSA_qual,N-methyl perfluorooctanesulfonamide qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,MeFOSA_MDL,N-methyl perfluorooctanesulfonamide method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,MeFOSA_RL_MQL,N-methyl perfluorooctanesulfonamide reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,EtFOSA_val,N-ethyl perfluorooctanesulfonamide concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,EtFOSA_rmk,N-ethyl perfluorooctanesulfonamide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,EtFOSA_qual,N-ethyl perfluorooctanesulfonamide qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,EtFOSA_MDL,N-ethyl perfluorooctanesulfonamide method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,EtFOSA_RL_MQL,N-ethyl perfluorooctanesulfonamide reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.MeFOSE_val,N-methyl perfluorooctanesulfonamidoethanol concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.MeFOSE_rmk,N-methyl perfluorooctanesulfonamidoethanol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,N.MeFOSE_qual,N-methyl perfluorooctanesulfonamidoethanol qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,N.MeFOSE_MDL,N-methyl perfluorooctanesulfonamidoethanol method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.MeFOSE_RL_MQL,N-methyl perfluorooctanesulfonamidoethanol reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.EtFOSE_val,N-ethyl perfluorooctanesulfonamidoethanol concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.EtFOSE_rmk,N-ethyl perfluorooctanesulfonamidoethanol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,N.EtFOSE_qual,N-ethyl perfluorooctanesulfonamidoethanol qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,N.EtFOSE_MDL,N-ethyl perfluorooctanesulfonamidoethanol method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,N.EtFOSE_RL_MQL,N-ethyl perfluorooctanesulfonamidoethanol reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,3.3_FTCA_val,3-Perfluoropropyl propanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,3.3_FTCA_rmk,3-Perfluoropropyl propanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,3.3_FTCA_qual,3-Perfluoropropyl propanoate qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,3.3_FTCA_MDL,3-Perfluoropropyl propanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,3.3_FTCA_RL_MQL,3-Perfluoropropyl propanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,5.3_FTCA_val,3-perfluoropentyl propanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,5.3_FTCA_rmk,3-perfluoropentyl propanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,5.3_FTCA_qual,3-perfluoropentyl propanoate qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,5.3_FTCA_MDL,3-perfluoropentyl propanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,5.3_FTCA_RL_MQL,3-perfluoropentyl propanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,7.3_FTCA_val,3-Perfluoroheptyl propanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,7.3_FTCA_rmk,3-Perfluoroheptyl propanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,7.3_FTCA_qual,3-Perfluoroheptyl propanoate qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,7.3_FTCA_MDL,3-Perfluoroheptyl propanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,7.3_FTCA_RL_MQL,3-Perfluoroheptyl propanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFEESA_val,Perfluoro(2-ethoxyethane) sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFEESA_rmk,Perfluoro(2-ethoxyethane) sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFEESA_qual,Perfluoro(2-ethoxyethane) sulfonate qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFEESA_MDL,Perfluoro(2-ethoxyethane) sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFEESA_RL_MQL,Perfluoro(2-ethoxyethane) sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFMPA_val,Perfluoro-3-methoxypropanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFMPA_rmk,Perfluoro-3-methoxypropanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFMPA_qual,Perfluoro-3-methoxypropanoate qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFMPA_MDL,Perfluoro-3-methoxypropanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFMPA_RL_MQL,Perfluoro-3-methoxypropanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFMBA_val,Perfluoro-4-methoxybutanate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFMBA_rmk,Perfluoro-4-methoxybutanate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFMBA_qual,Perfluoro-4-methoxybutanate qualifier code,"m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFMBA_MDL,Perfluoro-4-methoxybutanate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFMBA_RL_MQL,Perfluoro-4-methoxybutanate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,NFDHA_val,"Perfluoro-3,6-dioxaheptanoate concentration",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,NFDHA_rmk,"Perfluoro-3,6-dioxaheptanoate remark","< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,NFDHA_qual,"Perfluoro-3,6-dioxaheptanoate qualifier code","m= Manual integration applied to peak; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,NFDHA_MDL,"Perfluoro-3,6-dioxaheptanoate method detection limit",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,NFDHA_RL_MQL,"Perfluoro-3,6-dioxaheptanoate reporting limit or method quantification limit",Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,10.2.FTS_val,10:2 Fluorotelomer sulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,10.2.FTS_rmk,10:2 Fluorotelomer sulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,10.2.FTS_qual,10:2 Fluorotelomer sulfonate qualifier code,"m= Manual integration applied to peak; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,10.2.FTS_MDL,10:2 Fluorotelomer sulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,10.2.FTS_RL_MQL,10:2 Fluorotelomer sulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,6.2.diPAP_val,6:2 Fluorotelomer phosphate diester concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,6.2.diPAP_rmk,6:2 Fluorotelomer phosphate diester remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,6.2.diPAP_qual,6:2 Fluorotelomer phosphate diester qualifier code,"m= Manual integration applied to peak; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,6.2.diPAP_MDL,6:2 Fluorotelomer phosphate diester method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,6.2.diPAP_RL_MQL,6:2 Fluorotelomer phosphate diester reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,8.2.diPAP_val,8:2 Fluorotelomer phosphate diester concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,8.2.diPAP_rmk,8:2 Fluorotelomer phosphate diester remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,8.2.diPAP_qual,8:2 Fluorotelomer phosphate diester qualifier code,"m= Manual integration applied to peak; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,8.2.diPAP_MDL,8:2 Fluorotelomer phosphate diester method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,8.2.diPAP_RL_MQL,8:2 Fluorotelomer phosphate diester reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,FBSA_val,Perfluorobutane sulfonamide concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,FBSA_rmk,Perfluorobutane sulfonamide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,FBSA_qual,Perfluorobutane sulfonamide qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; u= Fragment ion not detected; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,FBSA_MDL,Perfluorobutane sulfonamide method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,FBSA_RL_MQL,Perfluorobutane sulfonamide reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,FHxSA_val,Perfluorohexane sulfonamide concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,FHxSA_rmk,Perfluorohexane sulfonamide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,FHxSA_qual,Perfluorohexane sulfonamide qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,FHxSA_MDL,Perfluorohexane sulfonamide method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,FHxSA_RL_MQL,Perfluorohexane sulfonamide reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPrA_val,Perfluoropropanoate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPrA_rmk,Perfluoropropanoate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFPrA_qual,Perfluoropropanoate qualifier code,"m= Manual integration applied to peak; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFPrA_MDL,Perfluoropropanoate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPrA_RL_MQL,Perfluoropropanoate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPrS_val,Perfluoropropanesulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPrS_rmk,Perfluoropropanesulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFPrS_qual,Perfluoropropanesulfonate qualifier code,"m= Manual integration applied to peak; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFPrS_MDL,Perfluoropropanesulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFPrS_RL_MQL,Perfluoropropanesulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTrDS_val,Perfluorotridecanesulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTrDS_rmk,Perfluorotridecanesulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFTrDS_qual,Perfluorotridecanesulfonate qualifier code,"m= Manual integration applied to peak; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFTrDS_MDL,Perfluorotridecanesulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFTrDS_RL_MQL,Perfluorotridecanesulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFUnDS_val,Perfluoroundecanesulfonate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFUnDS_rmk,Perfluoroundecanesulfonate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,PFUnDS_qual,Perfluoroundecanesulfonate qualifier code,"m= Manual integration applied to peak; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,PFUnDS_MDL,Perfluoroundecanesulfonate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,PFUnDS_RL_MQL,Perfluoroundecanesulfonate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,TFA_val,Trifluoroacetate concentration,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,TFA_rmk,Trifluoroacetate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCodPFAS_2019_2024,TFA_qual,Trifluoroacetate qualifier code,"m= Manual integration applied to peak; n= Below the laboratory reporting level and above the method detection limit; q= qualitative; blank= No qualifier, does not apply",text
+CapeCodPFAS_2019_2024,TFA_MDL,Trifluoroacetate method detection limit,Blank= not applicable,numeric
+CapeCodPFAS_2019_2024,TFA_RL_MQL,Trifluoroacetate reporting limit or method quantification limit,Blank= not applicable,numeric
+CapeCod_Pharmaceuticals_June2022,Site_Name,Name of site as it appears in NWIS (National Water Information System),,text
+CapeCod_Pharmaceuticals_June2022,SiteID_DON,Unique identifier associated with the site,,text
+CapeCod_Pharmaceuticals_June2022,Date_yyyymmdd,Date of sample collection,Date format: yyyymmdd,text
+CapeCod_Pharmaceuticals_June2022,Time_hhmm,Time of sample collection,Time Format: hhmm (24 hours).,text
+CapeCod_Pharmaceuticals_June2022,Sample_type,Code indicating type of sample,"Sample type abbreviations are defined as follows: GW= Groundwater; LK= Lake, surface water; RV= River, surface water; OAQ= Blank; WGQ= Groundwater Duplicate; WSQ= Surface water duplicate",text
+CapeCod_Pharmaceuticals_June2022,Pharmaceutical_units,Units pharmaceutical compounds are reported in.,ng/L= nanograms of the compound per liter,text
+CapeCod_Pharmaceuticals_June2022,Venlafaxine_val,"Venlafaxine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Venlafaxine_rmk,Venlafaxine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Guanylurea_val,"Guanylurea concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Guanylurea_rmk,Guanylurea remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Guanylurea_qual,Guanylurea qualifier,u= research or unapproved method,text
+CapeCod_Pharmaceuticals_June2022,Amitriptyline_val,"Amitriptyline concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Amitriptyline_rmk,Amitriptyline remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Amitriptyline_qual,Amitriptyline qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Piperonyl_butoxide_val,"Piperonyl butoxide concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Piperonyl_butoxide_rmk,Piperonyl butoxide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Piperonyl_butoxide_qual,Piperonyl butoxide qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Metoprolol_val,"Metoprolol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Metoprolol_rmk,Metoprolol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Carbamazepine_val,"Carbamazepine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Carbamazepine_rmk,Carbamazepine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Antipyrine_val,"Antipyrine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Antipyrine_rmk,Antipyrine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Amphetamine_val,"Amphetamine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Amphetamine_rmk,Amphetamine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Dehydronifedipine_val,"Dehydronifedipine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Dehydronifedipine_rmk,Dehydronifedipine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Oxycodone_val,"Oxycodone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Oxycodone_rmk,Oxycodone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Oxazepam_val,"Oxazepam concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Oxazepam_rmk,Oxazepam remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Oxazepam_qual,Oxazepam qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Gabapentin_val,"Gabapentin concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Gabapentin_rmk,Gabapentin remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Gabapentin_qual,Gabapentin qualifier,u= research or unapproved method; b= value extrapolated at low end; t= below the detection level,text
+CapeCod_Pharmaceuticals_June2022,Carisoprodol_val,"Carisoprodol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Carisoprodol_rmk,Carisoprodol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Nadolol_val,"Nadolol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Nadolol_rmk,Nadolol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fluconazole_val,"Fluconazole concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Fluconazole_rmk,Fluconazole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fluconazole_qual,Fluconazole qualifier,"b= value extrapolated at low end; t= below the detection level; Blank= no qualifier, does not apply",text
+CapeCod_Pharmaceuticals_June2022,Quinine_val,"Quinine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Quinine_rmk,Quinine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Hydrocortisone_val,"Hydrocortisone concentration, National Water Quality Lab",Blank= See qualifier,numeric
+CapeCod_Pharmaceuticals_June2022,Hydrocortisone_rmk,Hydrocortisone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Hydrocortisone_qual,Hydrocortisone qualifier,m= value is highly variable by this method; r= sample ruined in preparation,text
+CapeCod_Pharmaceuticals_June2022,Temazepam_val,"Temazepam concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Temazepam_rmk,Temazepam remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Penciclovir_val,"Penciclovir concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Penciclovir_rmk,Penciclovir remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Penciclovir_qual,Penciclovir qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Raloxifene_val,"Raloxifene concentration, National Water Quality Lab",Blank= See qualifier,numeric
+CapeCod_Pharmaceuticals_June2022,Raloxifene_rmk,Raloxifene remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Raloxifene_qual,Raloxifene qualifier,"m= value is highly variable by this method; x= unable to determine, matrix interference",text
+CapeCod_Pharmaceuticals_June2022,Desvenlafaxine_val,"Desvenlafaxine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Desvenlafaxine_rmk,Desvenlafaxine  remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Phendimetrazine_val,"Phendimetrazine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Phendimetrazine_rmk,Phendimetrazine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Diphenhydramine_val,"Diphenhydramine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Diphenhydramine_rmk,Diphenhydramine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Nizatidine_val,"Nizatidine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Nizatidine_rmk,Nizatidine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Nizatidine_qual,Nizatidine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Iminostilbene_val,"Iminostilbene concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Iminostilbene_rmk,Iminostilbene remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Atrazine_val,"Atrazine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Atrazine_rmk,Atrazine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Nevirapine_val,"Nevirapine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Nevirapine_rmk,Nevirapine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Ketoconazole_val,"Ketoconazole concentration, National Water Quality Lab",Blank= See qualifier,numeric
+CapeCod_Pharmaceuticals_June2022,Ketoconazole_rmk,Ketoconazole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Ketoconazole_qual,Ketoconazole qualifier,"m= value is highly variable by this method; x= unable to determine, matrix interference",text
+CapeCod_Pharmaceuticals_June2022,Hydroxyzine_val,"Hydroxyzine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Hydroxyzine_rmk,Hydroxyzine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Alprazolam_val,"Alprazolam concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Alprazolam_rmk,Alprazolam remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fluoxetine_val,"Fluoxetine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Fluoxetine_rmk,Fluoxetine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Acetaminophen_val,"Acetaminophen concentration, National Water Quality Lab",Blank= See qualifier,numeric
+CapeCod_Pharmaceuticals_June2022,Acetaminophen_rmk,Acetaminophen remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Acetaminophen_qual,Acetaminophen qualifier,"x= unable to determine, matrix interference; Blank= no qualifier, does not apply",text
+CapeCod_Pharmaceuticals_June2022,Meprobamate_val,"Meprobamate concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Meprobamate_rmk,Meprobamate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Propoxyphene_val,"Propoxyphene concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Propoxyphene_rmk,Propoxyphene remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Propoxyphene_qual,Propoxyphene qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Verapamil_val,"Verapamil concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Verapamil_rmk,Verapamil remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Verapamil_qual,Verapamil qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Famotidine_val,"Famotidine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Famotidine_rmk,Famotidine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Famotidine_qual,Famotidine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Fenofibrate_val,"Fenofibrate concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Fenofibrate_rmk,Fenofibrate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fenofibrate_qual,Fenofibrate qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Sertraline_val,"Sertraline concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Sertraline_rmk,Sertraline remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Sertraline_qual,Sertraline qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Hexamethylenetetramine_val,"Hexamethylenetetramine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Hexamethylenetetramine_rmk,Hexamethylenetetramine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Hexamethylenetetramine_qual,Hexamethylenetetramine qualifier,u= research or unapproved method,text
+CapeCod_Pharmaceuticals_June2022,10-Hydroxy-amitriptyline_val,"10-Hydroxy-amitriptyline concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,10-Hydroxy-amitriptyline_rmk,10-Hydroxy-amitriptyline remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Sitagliptin_val,"Sitagliptin concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Sitagliptin_rmk,Sitagliptin remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Nicotine_val,"Nicotine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Nicotine_rmk,Nicotine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Nicotine_qual,Nicotine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Thiabendazole_val,"Thiabendazole concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Thiabendazole_rmk,Thiabendazole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Pseudoephedrine_val,"Pseudoephedrine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Pseudoephedrine_rmk,Pseudoephedrine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Theophylline_val,"Theophylline concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Theophylline_rmk,Theophylline remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Theophylline_qual,Theophylline qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Pentoxifylline_val,"Pentoxifylline concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Pentoxifylline_rmk,Pentoxifylline remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fadrozole_val,"Fadrozole concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Fadrozole_rmk,Fadrozole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Citalopram_val,"Citalopram concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Citalopram_rmk,Citalopram remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Norsertraline_val,"Norsertraline concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Norsertraline_rmk,Norsertraline remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Norsertraline_qual,Norsertraline qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Norfluoxetine_val,"Norfluoxetine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Norfluoxetine_rmk,Norfluoxetine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Warfarin_val,"Warfarin concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Warfarin_rmk,Warfarin remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Oseltamivir_val,"Oseltamivir concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Oseltamivir_rmk,Oseltamivir remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Triamterene_val,"Triamterene concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Triamterene_rmk,Triamterene remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Methyl-1H-benzotriazole_val,"Methyl-1H-benzotriazole concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Methyl-1H-benzotriazole_rmk,Methyl-1H-benzotriazole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Methyl-1H-benzotriazole_qual,Methyl-1H-benzotriazole qualifier code,"e= estimated value; Blank= no qualifier, does not apply",text
+CapeCod_Pharmaceuticals_June2022,Loperamide_val,"Loperamide concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Loperamide_rmk,Loperamide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Loperamide_qual,Loperamide qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Glyburide_val,"Glyburide concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Glyburide_rmk,Glyburide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,"1,7-Dimethylxanthine_val","1,7-Dimethylxanthine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,"1,7-Dimethylxanthine_rmk","1,7-Dimethylxanthine remark","< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,"1,7-Dimethylxanthine_qual","1,7-Dimethylxanthine qualifier code","e= estimated value; b= value extrapolated at low end; m= value is highly variable by this method; n= below the reporting level but at or above the detection level; Blank= no qualifier, does not apply",text
+CapeCod_Pharmaceuticals_June2022,Benztropine_val,"Benztropine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Benztropine_rmk,Benztropine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Benztropine_qual,Benztropine qualifier code,e= estimated value; b= value extrapolated at low end; m= value is highly variable by this method; t= below the detection level,text
+CapeCod_Pharmaceuticals_June2022,Desmethyl_diltiazem_val,"Desmethyl diltiazem concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Desmethyl_diltiazem_rmk,Desmethyl diltiazem remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Desmethyl_diltiazem_qual,Desmethyl diltiazem qualifier code,e= estimated value; i= result may be affected by interference; v= analyte detected in laboratory blank; b= value extrapolated at low end; m= value is highly variable by this method; t= below the detection level,text
+CapeCod_Pharmaceuticals_June2022,Albuterol_val,"Albuterol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Albuterol_rmk,Albuterol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Methadone_val,"Methadone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Methadone_rmk,Methadone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Morphine_val,"Morphine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Morphine_rmk,Morphine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Chlorpheniramine_val,"Chlorpheniramine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Chlorpheniramine_rmk,Chlorpheniramine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Chlorpheniramine_qual,Chlorpheniramine qual,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Acyclovir_val,"Acyclovir concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Acyclovir_rmk,Acyclovir remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Acyclovir_qual,Acyclovir qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Prednisolone_val,"Prednisolone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Prednisolone_rmk,Prednisolone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Trimethoprim_val,"Trimethoprim concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Trimethoprim_rmk,Trimethoprim remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Norverapamil_val,"Norverapamil concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Norverapamil_rmk,Norverapamil remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Norverapamil_qual,Norverapamil qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Sulfamethoxazole_val,"Sulfamethoxazole concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Sulfamethoxazole_rmk,Sulfamethoxazole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Hydrocodone_val,"Hydrocodone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Hydrocodone_rmk,Hydrocodone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Hydrocodone_qual,Hydrocodone qualifier code,e= estimated value; b= value extrapolated at low end; m= value is highly variable by this method; t= below the detection level,text
+CapeCod_Pharmaceuticals_June2022,Ezetimibe_val,"Ezetimibe concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Ezetimibe_rmk,Ezetimibe remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Ezetimibe_qual,Ezetimibe qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Propranolol_val,"Propranolol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Propranolol_rmk,Propranolol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Abacavir_val,"Abacavir concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Abacavir_rmk,Abacavir remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Dextromethorphan_val,"Dextromethorphan concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Dextromethorphan_rmk,Dextromethorphan remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Prednisone_val,"Prednisone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Prednisone_rmk,Prednisone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Prednisone_qual,Prednisone qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Sulfamethizole_val,"Sulfamethizole concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Sulfamethizole_rmk,Sulfamethizole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Codeine_val,"Codeine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Codeine_rmk,Codeine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Paroxetine_val,"Paroxetine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Paroxetine_rmk,Paroxetine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Paroxetine_qual,Paroxetine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Ractopamine_val,"Ractopamine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Ractopamine_rmk,Ractopamine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Ractopamine_qual,Ractopamine qualifier,u= research or unapproved method,text
+CapeCod_Pharmaceuticals_June2022,Cotinine_val,"Cotinine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Cotinine_rmk,Cotinine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Atenolol_val,"Atenolol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Atenolol_rmk,Atenolol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fluvoxamine_val,"Fluvoxamine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Fluvoxamine_rmk,Fluvoxamine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fluvoxamine_qual,Fluvoxamine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Metaxalone_val,"Metaxalone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Metaxalone_rmk,Metaxalone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Fexofenadine_val,"Fexofenadine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Fexofenadine_rmk,Fexofenadine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Glipizide_val,"Glipizide concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Glipizide_rmk,Glipizide remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Glipizide_qual,Glipizide qualifier,"b= value extrapolated at low end; t= below the detection level; Blank= no qualifier, does not apply",text
+CapeCod_Pharmaceuticals_June2022,Phenazopyridine_val,"Phenazopyridine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Phenazopyridine_rmk,Phenazopyridine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Metformin_val,"Metformin concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Metformin_rmk,Metformin remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Metformin_qual,Metformin qualifier,"t= below the detection level; Blank= no qualifier, does not apply",text
+CapeCod_Pharmaceuticals_June2022,Lorazepam_val,"Lorazepam concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Lorazepam_rmk,Lorazepam remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Lorazepam_qual,Lorazepam qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Diazepam_val,"Diazepam concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Diazepam_rmk,Diazepam remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Promethazine_val,"Promethazine concentration, National Water Quality Lab",Blank= See qualifier,numeric
+CapeCod_Pharmaceuticals_June2022,Promethazine_rmk,Promethazine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Promethazine_qual,Promethazine qualifier,"m= value is highly variable by this method; x= unable to determine, matrix interference",text
+CapeCod_Pharmaceuticals_June2022,Clonidine_val,"Clonidine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Clonidine_rmk,Clonidine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Bupropion_val,"Bupropion concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Bupropion_rmk,Bupropion remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Tamoxifen_val,"Tamoxifen concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Tamoxifen_rmk,Tamoxifen remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Tamoxifen_qual,Tamoxifen qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Tramadol_val,"Tramadol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Tramadol_rmk,Tramadol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Nordiazepam_val,"Nordiazepam concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Nordiazepam_rmk,Nordiazepam remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Ranitidine_val,"Ranitidine concentration, National Water Quality Lab",Blank= See qualifier,numeric
+CapeCod_Pharmaceuticals_June2022,Ranitidine_rmk,Ranitidine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Ranitidine_qual,Ranitidine qualifier,"m= value is highly variable by this method; x= unable to determine, matrix interference",text
+CapeCod_Pharmaceuticals_June2022,Sulfadimethoxine_val,"Sulfadimethoxine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Sulfadimethoxine_rmk,Sulfadimethoxine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Lamivudine_val,"Lamivudine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Lamivudine_rmk,Lamivudine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Lamivudine_qual,Lamivudine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Lidocaine_val,"Lidocaine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Lidocaine_rmk,Lidocaine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Lidocaine_qual,Lidocaine qualifier,"b= value extrapolated at low end; Blank= no qualifier, does not apply",text
+CapeCod_Pharmaceuticals_June2022,Fluticasone_propionate_val,"Fluticasone propionate concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Fluticasone_propionate_rmk,Fluticasone propionate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Methotrexate_val,"Methotrexate concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Methotrexate_rmk,Methotrexate remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Valacyclovir_val,"Valacyclovir concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Valacyclovir_rmk,Valacyclovir remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Valacyclovir_qual,Valacyclovir qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Tiotropium_val,"Tiotropium concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Tiotropium_rmk,Tiotropium remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Tiotropium_qual,Tiotropium qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Erythromycin_val,"Erythromycin concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Erythromycin_rmk,Erythromycin remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Erythromycin_qual,Erythromycin qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Betamethasone_val,"Betamethasone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Betamethasone_rmk,Betamethasone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Betamethasone_qual,Betamethasone qualifier code,e= estimated value; b= value extrapolated at low end; m= value is highly variable by this method; t= below the detection level,text
+CapeCod_Pharmaceuticals_June2022,Diltiazem_val,"Diltiazem concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Diltiazem_rmk,Diltiazem remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Caffeine_val,"Caffeine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Caffeine_rmk,Caffeine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Caffeine_qual,Caffeine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Norethindrone_val,"Norethindrone concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Norethindrone_rmk,Norethindrone remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Loratadine_val,"Loratadine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Loratadine_rmk,Loratadine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Methocarbamol_val,"Methocarbamol concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Methocarbamol_rmk,Methocarbamol remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Cimetidine_val,"Cimetidine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Cimetidine_rmk,Cimetidine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Cimetidine_qual,Cimetidine qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Phenytoin_val,"Phenytoin concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Phenytoin_rmk,Phenytoin remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Phenytoin_qual,Phenytoin qualifier,m= value is highly variable by this method,text
+CapeCod_Pharmaceuticals_June2022,Duloxetine_val,"Duloxetine concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Duloxetine_rmk,Duloxetine remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text
+CapeCod_Pharmaceuticals_June2022,Omeprazole_Esomeprazole_val,"Omeprazole Esomeprazole concentration, National Water Quality Lab",,numeric
+CapeCod_Pharmaceuticals_June2022,Omeprazole_Esomeprazole_rmk,Omeprazole Esomeprazole remark,"< where value is lower than detection limit; Blank= no remark, does not apply. ",text

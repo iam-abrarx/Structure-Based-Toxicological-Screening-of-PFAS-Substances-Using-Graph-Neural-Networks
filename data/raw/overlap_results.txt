@@ -1,0 +1,25 @@
+Overlap Analysis Report
+=======================
+
+Dataset 1: EPA PFAS Master List
+- Total Rows: 7993
+- Unique DTXSIDs: 7993
+
+Dataset 2: Tox21 Data (Sheet S2)
+- Total Rows: 8947
+- Unique DTXSIDs: 8947
+
+Intersection Results:
+- Common Chemicals (by DTXSID): 36
+- Coverage of PFAS List: 0.45%
+
+Sample Common Chemicals:
+       DTXSID                        Chemical Name
+DTXSID2047565    1H,1H,2H,2H-Perfluorooctyl iodide
+DTXSID3031862               Perfluorohexanoic acid
+DTXSID3047558 2-(Perfluorohexyl)ethyl methacrylate
+DTXSID5046516                            Flurothyl
+DTXSID8031863               Perfluorononanoic acid
+
+Predicted Properties Availability (Sheet S4):
+- Chemicals with Property predictions: 36

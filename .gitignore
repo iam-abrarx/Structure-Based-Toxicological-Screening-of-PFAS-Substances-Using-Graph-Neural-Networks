@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Project specific
+pipeline_execution.log
+*.pdf
+# Large data files might need checking, but usually exclude raw/ if too big. 
+# For now, following user instruction to push "it", assuming standard files.
+approach5_tox21/data_scraping/*.csv
+data/raw/GroundWater/Spatio-Temporal/CapeCodPFAS_2019_2024.csv
